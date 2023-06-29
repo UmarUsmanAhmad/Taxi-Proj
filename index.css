@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('Taxi.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .container {
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 10px;
+   
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ .header {
+    text-align: center;
+    color: white;
+}
+
+.second-header {
+    margin-top: 40px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+ @media (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+}
